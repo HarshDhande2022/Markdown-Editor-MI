@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+
+body {
+  background: #b4fed5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  color: rgb(13, 12, 12);
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.textarea {
+  width: 40vw;
+  height: 100vh;
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.output {
+  font-size: 18px;
+  margin-top: 50px;
+  width: 40vw;
+  height: 100vh;
+  margin-left: 20px;
+  padding: 10px;
+  line-height: 3rem;
+  color: #000;
+}
